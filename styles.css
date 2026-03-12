@@ -60,7 +60,7 @@ img {
     margin-right: 0;
     margin-left: 10px;
 }
-.highlight{
+.highlight {
     background-color: yellow;
     font-weight: bold;
     color: black;
@@ -130,7 +130,7 @@ ul{
     #sidebar{
         display: none;
     }
-    inmg, #pic2{
+    img#pic2 {
         float: none;
         width: 95%;
         margin: 0 auto;
