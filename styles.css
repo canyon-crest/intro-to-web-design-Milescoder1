@@ -3,15 +3,15 @@ body{
     color: #fff;
     font-family:"arial";
     padding: 8;
-    margin: 8;
+    margin: 0;
 }
 #container{
     background: darkred;
     padding: 30px;
-    width: 1180px;
-    margin: 8 auto;
-    border-left: 5px solid white;
-    border-right: 5px solid white;
+    width: 1000px;
+    margin: 0 auto;
+    border-left: double white 5px;
+    border-right: double white 5px;
 }
 #sidebar{
     background: black;
@@ -35,6 +35,7 @@ h1{
 }
 h2{
     text-align: center;
+    font-size: 1.25;
 }
 h3{
     width: 188px;
@@ -58,7 +59,7 @@ img {
 #pic2{
     float: right;
     margin-right: 0;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .highlight {
     background-color: yellow;
@@ -78,6 +79,10 @@ a:visited{
 a:hover{
     text-decoration: underline;
 }
+img:hover{
+    border-color: yellow;
+    box-shadow: .5px 5px 10px yellow;
+}
 a:active{
     color:green;
 }
@@ -89,23 +94,27 @@ ul{
     font-size: 1em;
 }
 #sidebar h3{
-    border-color: red;
-    font-size: 1.2em;
+    padding: 5px;
+    border-width: 5px;
+    passing-left: 20px;
+    border-right-color: yellow;
+    border-right-style: solid;
+    taxt-align: center;
+
 }
-@media(max-width: 1280px){
+@media(max-width: 1200px){
     #container{
-        background: pink;
-        width: 875px;
+        width: 800px;
     }
 }
 @media (max-width: 992px){
-    body{
-        background:red;
-    }
     #container{
         background: red;
-        width: 90;
-        border: none;
+        width: 100%;
+        border:none;    
+    }
+    body{
+        padding: 20px;
     }
     #sidebar{
         width: 80%;
