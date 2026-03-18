@@ -104,13 +104,17 @@ ul{
 }
 @media(max-width: 1200px){
     #container{
-        width: 800px;
+        width: 900px;
     }
 }
 @media (max-width: 992px){
     #container{
         width: 95%;
-        border:none;    
+        border:none;
+        margin: 0 auto;
+        float:none;    
+        padding: 4px;
+
     }
     body{
         padding: 20px;
@@ -139,7 +143,19 @@ ul{
     #sidebar{
         display: none;
     }
+    img#pic1 {
+        float: none;
+        width: 95%;
+        margin: 0 auto;
+        padding: 13px;
+    }
     img#pic2 {
+        float: none;
+        width: 95%;
+        margin: 0 auto;
+        padding: 13px;
+    }
+    img#pic3 {
         float: none;
         width: 95%;
         margin: 0 auto;
